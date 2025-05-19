@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="CV, Currículum, Nombre, Experiencia, Educación">
@@ -7,9 +8,11 @@
     <meta name="author" content="[Tu Nombre]">
     <title>Currículum Vitae de Victoria</title>
 </head>
+
 <body>
     <header>
-        <h1>Currículum Vitae</h1>
+        <h1 style="text-align: center;">Currículum Vitae</h1>
+        <img src="https://placehold.co/150" alt="Foto de perfil" style="display:block; margin: 0 auto 1em auto;">
         <nav>
             <ul>
                 <li><a href="#perfil">Perfil</a></li>
@@ -32,6 +35,44 @@
         <section id="educacion">
             <h2>Educación</h2>
             <p>[Formación académica]</p>
+
+            <p>Para más información sobre la universidad, visita el
+                <a href="https://www.espol.edu.ec" target="_blank">sitio web de ESPOL</a>.
+            </p>
+
+            <ol>
+                <li>Ingeniería en Computación</li>
+                <li>Maestría en Ciencias de la Computación</li>
+                <li>Curso de Inteligencia Artificial</li>
+            </ol>
+            <ul>
+                <li>Beca de excelencia académica</li>
+                <li>Participación en hackathons</li>
+                <li>Miembro de IEEE Student Branch</li>
+            </ul>
+
+            <table style="border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th style="border: 1px solid;">Grado</th>
+                    <th style="border: 1px solid;">Año de inicio</th>
+                    <th style="border: 1px solid;">Estado</th>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid;">Ingeniería en Computación</th>
+                    <td style="border: 1px solid;">2018</td>
+                    <td style="border: 1px solid;">Finalizado</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid ;">Maestría en Ciencias de la Computación</th>
+                    <td style="border: 1px solid;">2022</td>
+                    <td style="border: 1px solid ;">En curso</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid;">Curso de Inteligencia Artificial</th>
+                    <td style="border: 1px solid ;">2024</td>
+                    <td style="border: 1px solid;">Finalizado</td>
+                </tr>
+            </table>
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
@@ -42,13 +83,98 @@
             <p>[Proyectos]</p>
             <p>[Referencias]</p>
         </section>
+        <section id="referencias">
+            <h2>Referencias</h2>
+            <article>
+                <blockquote>
+                    "Victoria demostró una gran capacidad de liderazgo y compromiso en todos los proyectos en los que
+                    participó."
+                </blockquote>
+                <p>  
+                    <span>Ing. Carlos Pérez</span>
+                    <span>Gerente de Proyectos en TechSolutions</span>
+                    Trabajó con Victoria durante 3 años, destacando su responsabilidad y habilidades técnicas en
+                    desarrollo de software.
+                </p>
+            </article>
+            <article>
+                <blockquote>
+                    "Su creatividad y dedicación fueron clave para el éxito de nuestro equipo."
+                </blockquote>
+                <p>
+                    <strong>Mtra. Ana Torres</strong><br>
+                    Coordinadora Académica en Universidad ABC<br>
+                    Colaboró con Victoria en la organización de eventos académicos y proyectos de investigación.
+                </p>
+            </article>
+            <article>
+                <blockquote>
+                    "Victoria siempre mostró una actitud positiva y resolutiva ante los desafíos."
+                </blockquote>
+                <p>
+                    <strong>Lic. Juan Gómez</strong><br>
+                    Jefe de Innovación en Creativa S.A.<br>
+                    Fue supervisora directa de Victoria en el área de innovación, resaltando su proactividad y trabajo
+                    en equipo.
+                </p>
+            </article>
+        </section>
         <section id="contacto">
             <h2>Contacto</h2>
             <p>[Información de contacto]</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="motivo">Motivo de contacto:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="trabajo">Oferta de trabajo</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <fieldset>
+                    <legend>¿Cómo prefieres ser contactado?</legend>
+                    <input type="radio" id="email" name="contacto_preferido" value="email" required>
+                    <label for="email">Email</label>
+                    <input type="radio" id="telefono" name="contacto_preferido" value="telefono" required>
+                    <label for="telefono">Teléfono</label>
+                </fieldset>
+
+                <label for="intereses">Áreas de interés:</label>
+                <select id="intereses" name="intereses[]" multiple required>
+                    <option value="desarrollo">Desarrollo</option>
+                    <option value="diseño">Diseño</option>
+                    <option value="investigacion">Investigación</option>
+                    <option value="docencia">Docencia</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <h3 style="text-align: center;">Mapa ESPOL - FIEC</h3>
+            <div style="width:100%;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.5114961552179!2d-79.96617120571307!3d-2.14487910997587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d730245c7445f%3A0xfc409c1b5356771d!2sAdministraci%C3%B3n%20FIMCP%2C%20V24M%2B5HQ%2C%20Escuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)%2C%20Universidad%2C%20Avenida%20Principal%20de%20la%20ESPOL%2C%20Guayaquil%20090902!5e0!3m2!1ses-419!2sec!4v1747666520829!5m2!1ses-419!2sec"
+                    width="100%" height="350" style="border:0; display:block;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <h3 style="text-align: center;">Video instructivo sobre la vida en la ESPOL</h3>
+            <div style="display: flex; justify-content: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/v6kEanzJhpg?si=edDrzyPyqSXQg72_"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2025 Hilda Angulo. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>
