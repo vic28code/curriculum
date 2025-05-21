@@ -1,0 +1,51 @@
+
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+
+
+    /* Alineación del texto */
+    text-align: center;
+
+    /* Grosor de la fuente negrita */
+    font-weight: bold;
+
+}
+
+
+#photo {
+    width: 8vw;
+    height: auto;
+}
+
+.subtitle {
+    color: rgb(151 156 165 / 0.89);
+    text-transform: uppercase;
+}
+
+/* ...código existente... */
+
+footer p {
+    text-align: right;
+    font-style: italic;
+}
+
+nav > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section {
+    border: 0.2pt solid #cedddd;
+    margin: 4px 2px 8px 2px;
+    padding: 1.5% 0.8%;
+    margin-bottom: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px 0 rgba(235, 234, 234, 0.6);
+}
