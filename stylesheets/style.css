@@ -73,3 +73,6 @@ section > form {
     grid-column: 1 / 4;
 }
 
+section > h2 {
+    text-align: center;
+}
