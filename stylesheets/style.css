@@ -25,7 +25,7 @@ h1 {
 }
 
 .subtitle {
-    color: rgb(151 156 165 / 0.89);
+    color: rgba(21, 22, 24, 0.89);
     text-transform: uppercase;
 }
 
@@ -37,8 +37,13 @@ footer p {
 }
 
 nav > ul {
-    list-style: none;
-    padding-left: 0;
+    list-style: circle;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
 section {
@@ -49,3 +54,22 @@ section {
     border-radius: 5px;
     box-shadow: 3px 3px 1px 0 rgba(235, 234, 234, 0.6);
 }
+
+section > form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem 1rem;
+}
+
+/* Grid */
+#referencias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 1rem 1rem;
+}
+
+#referencias > h2 {
+    grid-column: 1 / 4;
+}
+
