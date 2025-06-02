@@ -7,7 +7,10 @@
     <meta name="description" content="Currículum Vitae de Victoria">
     <meta name="author" content="Victoria">
     <title>Currículum Vitae de Victoria</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Quicksand&family=Roboto&family=Playfair+Display&family=Open+Sans&family=Montserrat&family=Raleway&family=Roboto&family=Source+Sans+Pro&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="stylesheets/style.css">
 
 </head>
@@ -16,122 +19,236 @@
     <header>
         <h1>Currículum Vitae</h1>
 
-        <nav>
+        <nav id="navegacion">
             <ul>
-                <li><a href="#perfil">Perfil</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#educacion">Educación</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#perfil">PERFIL</a></li>
+                <li><a href="#experiencia">EXPERIENCIA</a></li>
+                <li><a href="#educacion">EDUCACIÓN</a></li>
+                <li><a href="#habilidades">HABILIDADES</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="perfil">
             <h2 class="subtitle">Perfil</h2>
-            <img id="photo" src="https://media.tenor.com/sbfBfp3FeY8AAAAj/oia-uia.gif" alt="GIF de perfil"
-                style="display:block; margin: 0 auto 1em auto;">
-            <p>Soy Hilda Victoria Angulo Borja, estudiante de sexto semestre de Ingeniería en Computación en la Escuela
-                Superior Politécnica del Litoral (ESPOL), con formación previa en la Academia Naval Almirante
-                Illingworth. Tengo interés en el desarrollo web, la inteligencia artificial, el diseño UI/UX y la
-                automatización. Me destaco por mi curiosidad tecnológica, pensamiento lógico y pasión por resolver
-                retos. Hablo español como lengua nativa y tengo un nivel intermedio (B2) de inglés. Disfruto programar,
-                explorar nuevos lenguajes y enfrentar desafíos técnicos a través de proyectos prácticos.
+            <div class="info-perfil">
+                <img id="photo" src="imgs\foto personal.jpeg" alt="Foto de perfil"
+                    style="display:block; margin: 0 auto 1em auto;">
+                <p> Soy estudiante de Ingeniería en Computación con competencias en programación, desarrollo de
+                    software, diseño y edición. Poseo una sólida base en lenguajes de programación y estructuras de
+                    datos, complementada con experiencia práctica en proyectos de desarrollo. Me motiva explorar nuevas
+                    tecnologías, enfrentar retos técnicos y aplicar metodologías ágiles para la resolución efectiva de
+                    problemas. Mi enfoque combina habilidades técnicas y capacidad analítica para aportar valor a
+                    equipos de desarrollo y proyectos de software.
+                </p>
+            </div>
 
-            </p>
+
         </section>
+
         <section id="experiencia">
             <h2 class="subtitle">Experiencia</h2>
-            <p>[Detalle de experiencia laboral]</p>
+            <div class="experiencia-grid">
+
+
+                <article>
+                    <h3>Desarrollador de Bases de Datos <br>– MAINCO S.A.</h3>
+                    <ul>
+                        <li>Diseño e implementación de una base de datos relacional para la gestión de maquinaria y
+                            repuestos.</li>
+                        <li>Desarrollo de consultas SQL optimizadas y generación de reportes automatizados.</li>
+                        <li>Apoyo en la digitalización de procesos internos y mejora de la eficiencia operativa.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Desarrollador de Software <br>– Emprendimiento local</h3>
+                    <ul>
+                        <li>Desarrollo de un sistema de caja adaptado a las necesidades de un pequeño negocio.</li>
+                        <li>Diseño de interfaz de usuario y lógica de negocio para la gestión de ventas y control de
+                            inventario.</li>
+                        <li>Implementación de funcionalidades de facturación y generación de reportes.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Diseñador Gráfico <br>– Heladería local</h3>
+                    <ul>
+                        <li>Creación del arte publicitario para redes sociales y material impreso.</li>
+                        <li>Desarrollo de conceptos creativos alineados con la identidad de marca.</li>
+                        <li>Edición y adaptación de diseños para diversos formatos y plataformas.</li>
+                    </ul>
+                </article>
+            </div>
         </section>
         <section id="educacion">
             <h2 class="subtitle">Educación</h2>
-            <p>Para más información sobre la universidad, visita el
-                <a href="https://www.espol.edu.ec" target="_blank">sitio web de ESPOL</a>.
-            </p>
+
 
             <ol>
-                <li>Ingeniería en Computación</li>
-                <li>Maestría en Ciencias de la Computación</li>
-                <li>Curso de Inteligencia Artificial</li>
-            </ol>
-            <ul>
-                <li>Beca de excelencia académica</li>
-                <li>Participación en hackathons</li>
-                <li>Miembro de IEEE Student Branch</li>
-            </ul>
+                <li><strong>Centro Ecuatoriano Norteamericano de Guayaquil (CEN)</strong>
+                    <ul>
+                        <li>Certificación B2 en Inglés, acreditada por Cambridge Michigan Language Assessments.</li>
+                        <li>Para más información sobre el examen de certificación, visita el sitio web del
+                            <a href="https://www.cenecuador.edu.ec/ecce/" target="_blank">CEN</a>.
+                        </li>
+                    </ul>
+                </li>
 
-            <table style="border-collapse: collapse; width: 100%;">
-                <tr>
-                    <th style="border: 1px solid;">Grado</th>
-                    <th style="border: 1px solid;">Año de inicio</th>
-                    <th style="border: 1px solid;">Estado</th>
-                </tr>
-                <tr>
-                    <th style="border: 1px solid;">Ingeniería en Computación</th>
-                    <td style="border: 1px solid;">2018</td>
-                    <td style="border: 1px solid;">Finalizado</td>
-                </tr>
-                <tr>
-                    <th style="border: 1px solid ;">Maestría en Ciencias de la Computación</th>
-                    <td style="border: 1px solid;">2022</td>
-                    <td style="border: 1px solid ;">En curso</td>
-                </tr>
-                <tr>
-                    <th style="border: 1px solid;">Curso de Inteligencia Artificial</th>
-                    <td style="border: 1px solid ;">2024</td>
-                    <td style="border: 1px solid;">Finalizado</td>
-                </tr>
+                <li><strong>Prefectura del Guayas</strong>
+                    <ul>
+                        <li>Curso especializado en diseño y desarrollo de sitios web.</li>
+                        <li>Curso avanzado en diseño gráfico con Adobe Photoshop.</li>
+                        <li>Curso práctico en desarrollo de videojuegos.</li>
+                        <li>Para más información sobre la organización, visita el sitio web de la
+                            <a href="https://guayastec.edu.ec/inscripciones-2/" target="_blank">Prefectura del
+                                Guayas</a>.
+                        </li>
+                    </ul>
+                </li>
+
+                <li><strong>Academia Naval Almirante Illingworth (ANAI)</strong>
+                    <ul>
+                        <li>Bachillerato en Informática, con distinción como mejor estudiante y abanderada del Ecuador.
+                        </li>
+                        <li>Para más información sobre la institución, visita el sitio web de la
+                            <a href="https://anai.edu.ec/" target="_blank">ANAI</a>.
+                        </li>
+                    </ul>
+                </li>
+
+                <li><strong>Examen MOS</strong>
+                    <ul>
+                        <li>Certificación en Microsoft Office (Word, Excel, PowerPoint), nivel experto.</li>
+                        <li>Para más información sobre el examen, visita el sitio web de
+                            <a href="https://learn.microsoft.com/es-es/credentials/certifications/mos-excel-2019/?practice-assessment-type=certification"
+                                target="_blank">Microsoft Learn</a>.
+                        </li>
+                    </ul>
+                </li>
+
+                <li><strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong>
+                    <ul>
+                        <li>Ingeniería en Ciencias de la Computación, en curso.</li>
+                        <li>Para más información sobre la universidad, visita el sitio web de la
+                            <a href="https://www.espol.edu.ec" target="_blank"> ESPOL</a>.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <table class="tabla-educacion">
+                <thead>
+                    <tr>
+                        <th>Grado / Certificación</th>
+                        <th>Año de inicio</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Certificación B2 en Inglés</td>
+                        <td>2012</td>
+                        <td>Finalizado</td>
+                    </tr>
+                    <tr>
+                        <td>Curso especializado en diseño y desarrollo de sitios web</td>
+                        <td>2015</td>
+                        <td>Finalizado</td>
+                    </tr>
+                    <tr>
+                        <td>Curso avanzado en diseño gráfico con Adobe Photoshop</td>
+                        <td>2016</td>
+                        <td>Finalizado</td>
+                    </tr>
+                    <tr>
+                        <td>Curso práctico en desarrollo de videojuegos</td>
+                        <td>2017</td>
+                        <td>Finalizado</td>
+                    </tr>
+                    <tr>
+                        <td>Bachillerato en Informática</td>
+                        <td>2019</td>
+                        <td>Finalizado</td>
+                    </tr>
+                    <tr>
+                        <td>Certificación en herramientas de Microsoft Office (Word, Excel, PowerPoint) – nivel experto
+                        </td>
+                        <td>2020</td>
+                        <td>Finalizado</td>
+                    </tr>
+                    <tr>
+                        <td>Ingeniería en Ciencias de la Computación</td>
+                        <td>2022</td>
+                        <td>En curso</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
         <section id="habilidades">
             <h2 class="subtitle">Habilidades</h2>
-            <p>[Lista de habilidades]</p>
-            <p>[Idiomas]</p>
-            <p>[Certificaciones]</p>
-            <p>[Otros cursos]</p>
-            <p>[Proyectos]</p>
-            <p>[Referencias]</p>
+            <div class="habilidades-grid">
+                <div>
+                    <h3>Habilidades Técnicas</h3>
+                    <ul>
+                        <li>Programación en <strong>Python</strong>, <strong>Java</strong> y <strong>C++</strong></li>
+                        <li>Desarrollo web con <strong>HTML5</strong> y <strong>CSS3</strong></li>
+                        <li>Diseño y edición gráfica con <strong>Adobe Photoshop</strong> e <strong>Illustrator</strong>
+                        </li>
+                        <li>Gestión y modelado de bases de datos (<strong>MySQL</strong>, <strong>SQL Server</strong>)
+                        </li>
+                        <li>Ofimática avanzada: <strong>Microsoft Word, Excel y PowerPoint</strong> (nivel experto)</li>
+                        <li>Resolución de problemas técnicos y depuración de código</li>
+                        <li>Colaboración efectiva en equipos multidisciplinarios</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Idiomas</h3>
+                    <ul>
+                        <li><strong>Español:</strong> Nativo</li>
+                        <li><strong>Inglés:</strong> Nivel B2 (certificado por Cambridge Michigan Language Assessments)
+                        </li>
+                        <li><strong>Francés:</strong> Conocimientos básicos</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Certificaciones</h3>
+                    <ul>
+                        <li>Certificación B2 en inglés – Centro Ecuatoriano Norteamericano (CEN)</li>
+                        <li>Certificación MOS en Microsoft Office (Word, Excel, PowerPoint) – nivel experto</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section id="referencias">
             <h2 class="subtitle">Referencias</h2>
             <article>
                 <blockquote>
-                    "Victoria demostró una gran capacidad de liderazgo y compromiso en todos los proyectos en los que
-                    participó."
+                    "Victoria demostró una gran capacidad de organización y responsabilidad en la gestión de la base de
+                    datos de nuestra empresa, aportando mejoras sustanciales a los procesos internos."
                 </blockquote>
                 <p>
-                    <strong>Ing. Carlos Pérez</strong><br>
-                    <span>Gerente de Proyectos en TechSolutions</span><br>
-                    Trabajó con Victoria durante 3 años, destacando su responsabilidad y habilidades técnicas en
-                    desarrollo de software.
+                    <strong>Sr. Giovanny Coello</strong><br>
+                    <span>Jefe en MAINCO S.A.</span><br>
+                    Trabajó conmigo durante 2 años, destacando mi compromiso y habilidades técnicas en desarrollo y
+                    administración de bases de datos.
                 </p>
             </article>
             <article>
                 <blockquote>
-                    "Su creatividad y dedicación fueron clave para el éxito de nuestro equipo."
+                    "Su dedicación y excelencia académica dejaron una huella imborrable en nuestra institución."
                 </blockquote>
                 <p>
-                    <strong>Mtra. Ana Torres</strong><br>
-                    Coordinadora Académica en Universidad ABC<br>
-                    Colaboró con Victoria en la organización de eventos académicos y proyectos de investigación.
+                    <strong>Lic. Alexandra Gómez Moreira</strong><br>
+                    Directora en ANAI<br>
+                    Fue mi supervisora y directora, destacando mi desempeño académico y distinción como abanderada del
+                    Ecuador.
                 </p>
             </article>
-            <article>
-                <blockquote>
-                    "Victoria siempre mostró una actitud positiva y resolutiva ante los desafíos."
-                </blockquote>
-                <p>
-                    <strong>Lic. Juan Gómez</strong><br>
-                    Jefe de Innovación en Creativa S.A.<br>
-                    Fue supervisora directa de Victoria en el área de innovación, resaltando su proactividad y trabajo
-                    en equipo.
-                </p>
-            </article>
+
         </section>
         <section id="contacto">
             <h2>Contacto</h2>
-            <p>[Información de contacto]</p>
             <form action="#" method="post">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
@@ -152,6 +269,12 @@
                     <label for="telefono">Teléfono</label>
                 </fieldset>
 
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+
+                <label for="telefono_contacto">Teléfono:</label>
+                <input type="tel" id="telefono_contacto" name="telefono_contacto" placeholder="0999999999">
+
                 <label for="intereses">Áreas de interés:</label>
                 <select id="intereses" name="intereses[]" multiple required>
                     <option value="desarrollo">Desarrollo</option>
@@ -165,14 +288,14 @@
 
                 <button type="submit">Enviar</button>
             </form>
-            <h3 style="text-align: center;">Mapa ESPOL - FIEC</h3>
+            <h3 class="titulo-seccion">Mapa ESPOL - FIEC</h3>
             <div style="width:100%;">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.023651929019!2d-79.97238991114497!3d-2.1446260000000037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1748274192375!5m2!1ses-419!2sec"
                     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <h3 style="text-align: center;">Video instructivo sobre la vida en la ESPOL</h3>
+            <h3 class="titulo-seccion">Video instructivo sobre la vida en la ESPOL</h3>
             <div style="display: flex; justify-content: center;">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/v6kEanzJhpg?si=edDrzyPyqSXQg72_"
                     title="YouTube video player" frameborder="0"
@@ -181,9 +304,24 @@
             </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Hilda Angulo. Todos los derechos reservados.</p>
+    <footer id="footer-contacto">
+        <div class="info-contacto">
+            <p><strong>Email:</strong> hvangulo@espol.edu.ec</p>
+            <p><strong>Email FIEC:</strong> hangulob@fiec.espol.edu.ec</p>
+            <p>Guayaquil – Ecuador</p>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://ec.linkedin.com/in/hilda-victoria-angulo-borja-248b9122a" target="_blank"
+                class="boton-red facebook">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/vix_ab/?hl=es-la" target="_blank" class="boton-red instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <p class="copyright">&copy; 2025 Hilda Angulo. Todos los derechos reservados.</p>
     </footer>
+<a href="#navegacion" id="btn-subir">&#8679;</a>
 </body>
 
 </html>
